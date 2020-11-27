@@ -1,0 +1,1006 @@
+html, 
+body{
+    background-color: rgb(236, 236, 236);
+    font-family: 'lato';
+}
+
+.wrapper{
+    max-width: 1100px;
+    margin: auto;
+    padding: 10px;
+}
+
+.blob{
+    position: relative;
+    width:160%;
+    left:800px;
+    bottom:700px;
+    
+    padding:0px;
+    float: right;
+}
+
+.photo img{
+    width:500px;
+    position:absolute;
+    left: 800px;
+}
+
+
+#navbar ul{
+    list-style-type:none;
+    overflow: hidden;
+}
+
+#navbar li{
+    float: left;
+}
+
+#navbar a{
+    text-decoration: none;
+    color:#98c261;
+    padding:16px;
+}
+
+#navbar .svg-icon{
+    width: 2em;
+    height: 2em;
+    fill:white;
+    stroke:white;
+}
+
+#navbar li:hover{
+    background-color: #f4a927;
+
+}
+
+
+#navbar ul{
+    position:absolute;
+    right: 300px;
+}
+
+
+
+/************************************ UPPER ICONS ********************************/
+/* ---- CART ----*/
+
+.svg-icon {
+    width: 1em;
+    height: 1em;
+  }
+  
+  .svg-icon path,
+  .svg-icon polygon,
+  .svg-icon rect {
+    fill: #4691f6;
+  }
+  
+  .svg-icon circle {
+    stroke: #4691f6;
+    stroke-width: 1;
+  }
+
+  /************* LINK *************/
+
+.svg-icon {
+    width: 1em;
+    height: 1em;
+  }
+  
+  .svg-icon path,
+  .svg-icon polygon,
+  .svg-icon rect {
+    fill: #4691f6;
+  }
+  
+  .svg-icon circle {
+    stroke: #4691f6;
+    stroke-width: 1;
+  }
+
+
+
+.title{
+    position:absolute;
+}
+
+.title h2{
+    font-family: 'Fredoka One', cursive;
+    color:#69a41a;
+    font-weight:bold;
+    font-size:1.5em;
+    word-spacing: 5px;
+}
+
+.orange{
+    color:#f4a927;
+}
+
+.sidebar{
+    padding:0px;
+    width:50%;
+    position: relative;;
+    bottom:1550px;
+}
+
+.header h1{
+    color:#69a41a;
+    font-family: 'Fredoka One', cursive;
+    font-weight:500px;
+    font-size:3em;
+    word-spacing: 5px;
+}
+
+.sidebar .text-area{
+    font-size:0.7.5em;
+}
+
+ .form input[type="button"]{
+    padding:15px;
+    width:25%;
+    color:#fff;
+    background-color: #69a41a;
+    border:none;
+    outline: none;
+    border-radius:30px;
+    font-weight:bolder;
+    font-size:1em;
+}
+
+.sidebar input[type="button"]:hover{
+    background-color: #f4a927;
+
+}
+
+.sidebar span{
+    position: relative;
+}
+
+/***************************BOOK AREA**********************/
+
+.book{
+    padding:15px;
+    background-color: white;
+    border-radius:60px;
+    position: relative;
+    bottom:1325px;
+    box-shadow: 5px 15px 16px rgba(195,195,195,0.89)
+}
+
+.book input[type="Date"], [type="Time"]{
+    border:2px solid #69a41a;
+    padding:5px;
+    border-radius: 60px;
+    width:15%;
+    background-color: transparent;
+}
+
+::placeholder{
+    color:#69a41a;
+}
+
+.book select[id=""]{
+    border:2px solid #69a41a;
+    padding:5px;
+    border-radius: 60px;
+    width:15%;
+    background-color: transparent;
+}
+
+.book input[type="button"]{
+    padding:10px;
+    width:15%;
+    color:#fff;
+    background-color:#f4a927 ;
+    border:none;
+    outline: none;
+    border-radius:30px;
+    font-weight:bolder;
+    position: relative;
+    left:10px;
+
+}
+
+.book input[type="button"]:hover{
+    background-color:#69a41a; 
+}
+
+
+.book span{
+    font-weight: bold;
+}
+
+.book-now{
+    position: relative;
+    left:260px;
+    font-weight:5px;
+}
+
+.table{
+    color:#69a41a; 
+    font-size: 1.5em;
+    position: relative;
+    top:29px;
+    left:50px;
+}
+
+
+
+/********************************** VEGETABLE SECTION DISPLAY **********************************/
+
+.our-menu{
+    position: relative;
+    bottom:1130px;
+    text-align:center;
+}
+
+.menu h4{
+    color:#f4a927;
+    font-family: cursive;
+    font-size:1.5em;
+    word-spacing: 10px;
+    padding:0px;
+    margin:0px;
+    
+}
+
+.Amazing h2{
+    margin:0px;
+    padding:0px;
+    font-family:  cursive;
+    font-size:2em;
+    word-spacing: 10px;
+}
+    
+
+
+
+.svg-icon {
+    width: 1em;
+    height: 1em;
+  }
+  
+  .svg-icon path,
+  .svg-icon polygon,
+  .svg-icon rect {
+    fill: #4691f6;
+  }
+  
+  .svg-icon circle {
+    stroke: #4691f6;
+    stroke-width: 1;
+  }
+
+.display{
+    position: relative;
+    bottom:1065px;
+
+}
+
+.Vegetables{
+    width:35%;
+    background-color: #fff;
+    box-shadow: 5px 15px 16px rgba(195,195,195,0.89);
+}
+
+
+.Vegetables-2{
+    background-color: #fff;
+    width:30%;
+    position: relative;
+    left:412px;
+    bottom:668px;
+    box-shadow: 5px 15px 16px rgba(195,195,195,0.89);
+}
+
+
+.Vegetables-3{
+    background-color: #fff;
+    width:30%;
+    position: relative;
+    left:765px;
+    bottom:1011px;
+    box-shadow: 5px 15px 16px rgba(195,195,195,0.89);
+}
+
+
+.Vegetables-4{
+    background-color: #fff;
+    width:30%;
+    position: relative;
+    left:410px;
+    bottom:985px;
+    box-shadow: 5px 15px 16px rgba(195,195,195,0.89);
+}
+
+.Vegetables-5{
+    background-color: #fff;
+    width:30%;
+    position: relative;
+    left:767px;
+    bottom:1330px;
+    box-shadow: 5px 15px 16px rgba(195,195,195,0.89);
+}
+
+
+
+
+
+
+
+
+
+.Vegetables img{
+    width:100%;
+    position: relative;
+}
+
+
+.Vegetables-2 img{
+    width:100%;
+    position: relative;
+    height:35%;
+    
+}
+
+
+.Vegetables-3 img{
+    width:100%;
+    height:35%;
+    position: relative;
+}
+
+
+.Vegetables-4 img{
+    width:100%;
+    height:35%;
+    position: relative;
+}
+
+
+.Vegetables-5 img{
+    width:100%;
+    height:35%;
+    position: relative;
+}
+
+
+.display input[type="button"]{
+    padding:12px;
+    width:12%;
+    color:#fff;
+    background-color:#f4a927;
+    border:none;
+    outline: none;
+    font-weight:bolder;
+    font-size:1em;
+    position: relative;
+    bottom: 1247px;
+    left:963px;
+}
+
+.display input[type="button"]:hover{
+    background-color: #69a41a;
+}
+
+
+
+
+
+/************************************SPECIAL OFFER**********************/
+
+.tomato{
+    text-align:center;
+    position: relative;
+    bottom:1850px;
+}   
+
+.section-3{
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.6);
+    position: relative;
+    bottom:2500px;
+    height: 450px;
+    box-shadow:1px -13px 18px 9px rgba(200,200,200,0.72) ;
+
+}
+
+.image-3 img{
+    width:29%;
+    position: relative;
+    left: 50px;
+}
+
+.only{
+    width:20%;
+    position: relative;;
+    left:390px;
+    bottom:300px
+}
+
+.only span{
+    font-weight: bold;
+}
+
+.only h3{
+    color:#69a41a;
+    font-weight:bold;
+    letter-spacing: 3px;
+
+}
+
+.only p{
+    font-weight: lighter;
+    font-size: 10px;
+}
+
+
+.special-offer{
+    text-align: right;
+    width:40%;
+    position: relative;
+    left:620px;
+    bottom:510px;
+}
+
+.special-offer span{
+    font-weight: bold;
+    font-size:1.5em;
+}
+
+.special-offer h2{
+    color:#69a41a;
+    font-size:5em;
+    padding:0px;
+    margin:0px;
+    word-spacing: 12px;
+}
+
+.special-offer p{
+    font-size:13px;
+}
+
+.special-offer h4{
+    color:#69a41a;
+}
+.special-offer input[type="button"]{
+    padding:9px;
+    border-radius: 50px;;
+    width:27%;
+    color:#fff;
+    background-color:#f4a927;
+    border:none;
+    outline: none;
+    font-weight:bolder;
+    font-size:0.6em;
+}
+
+.special-offer input[type="button"]:hover{
+    background-color: #69a41a;
+
+}
+
+/***********************8 CHICKEN AREA *********************/
+
+.today{
+    text-align: center;
+    position: relative;
+    bottom:2200px;
+}
+.today span{
+    font-weight: bold;
+    color:#f4a927;
+    font-family: cursive;
+    font-size:1.5em;
+    word-spacing: 10px;
+    padding:0px;
+    margin:0px;
+}
+
+.today h3{
+    margin:0px;
+    padding:0px;
+    font-family: cursive;
+    font-size:2em;
+    word-spacing: 10px;
+
+}
+
+.chicken{
+    position: relative;
+    bottom:2150px;
+    height: 400px;
+}
+
+.circle{
+    background-color: white;
+    border-radius: 50%;
+    width:33%;
+    height:360px;
+    position: relative;
+    left:80px;
+    box-shadow:1px 1px 20px 9px #d3d3d3;
+    
+}
+.circle-1 img{
+    position: relative;
+    top:97px;
+    left:30px;
+
+}
+.grill{
+    width:40%;
+    position: relative;
+    bottom:260px;
+    left:540px;
+}
+
+.grill span{
+    font-weight: bold;
+    font-family: cursive;
+    font-size:1.8em;
+    word-spacing: 5px;
+    padding:0px;
+    margin:0px;
+}
+
+.grill input[type="button"]{
+    padding:12px;
+    width:30%;
+    color:#fff;
+    background-color:#f4a927;
+    border:none;
+    outline: none;
+    font-weight:bold;
+    font-size:0.9em;
+}
+
+.grill input[type="button"]:hover{
+    background-color: #69a41a;
+}
+
+/******************************* CUSTOMER AREA ***********************/
+
+.customer{
+    position: relative;
+    bottom:2020px;
+    text-align:center;
+}
+
+.customer h3{
+    margin:0px;
+    padding:0px;
+    font-family: cursive;
+    font-size:2em;
+    word-spacing: 6px;
+
+}
+.customer p{
+    font-size:0.9em;
+}
+
+.ui-head p{
+    font-size:1.0em;
+    padding:0px;
+    font-weight: bold;
+
+}
+                /**** NAV SVG ICONS ****/
+.svg-icon {
+    width: 1.3;
+    height: 1.3em;
+  }
+  
+  .svg-icon path,
+  .svg-icon polygon,
+  .svg-icon rect {
+    fill: #000000;
+  }
+  
+  .svg-icon circle {
+    stroke: #000000;
+    stroke-width: 1;
+  }
+
+/**right**/
+  .svg-icon {
+    width: 1.3em;
+    height: 1.3em;
+  }
+  
+  .svg-icon path,
+  .svg-icon polygon,
+  .svg-icon rect {
+    fill: #f4a927;
+  }
+  
+  .svg-icon circle {
+    stroke: #f4a927;
+    stroke-width: 1;
+  }
+
+  .svg-icon:hover{
+    background-color: #69a41a;
+}
+
+/*********************** UI FACES ********************/
+
+
+.ui-faces .svg-icon{
+    position: relative;
+    left:500px;
+    top:100px;
+}
+
+.customer .svg-icon{
+    position: relative;
+    right:500px;
+    bottom:620px
+}
+
+.ui-faces .svg-icon:hover{
+    width: 2.5em;
+    height: 2.5em;
+    fill: #69a41a;
+    stroke: #69a41a;
+    stroke-width: 2;
+  
+}
+
+.customer .svg-icon:hover{
+    width: 2.5em;
+    height: 2.5em;
+    fill: #69a41a;
+    stroke: #69a41a;
+    stroke-width: 1;
+}
+
+
+
+.ui-1{
+    position: relative;
+    right:390px;
+    top:32px;
+    
+}
+
+
+.ui-2{
+    position: relative;
+    right:225px;
+    bottom:100px;
+}
+
+.ui-3{
+    position: relative;
+    bottom:270px;
+}
+
+.ui-4{
+    position: relative;
+    left:225px;
+    bottom:453px;
+}
+
+.ui-5{
+    position: relative;
+    left:390px;
+    bottom:565px;
+
+}
+
+
+.ui-1 img{
+    width:100px;
+    border-radius: 50%;
+}
+
+.ui-2 img{
+    width:150px;
+    border-radius: 50%;
+}
+
+.ui-3 img{
+    width:200px;
+    border-radius: 50%;
+}
+
+.ui-4 img{
+    width:150px;
+    border-radius: 50%;
+}
+
+.ui-5 img{
+    width:100px;
+    border-radius: 50%;
+}
+
+/**********8888 SUBSCRIBE AREA ****************/
+
+.mitrus{
+    text-align:center;
+    position: relative;
+    bottom:2100px;
+}
+
+.mitrus img{
+    width:50%;
+}
+
+
+.news-letter{
+    height: 450px;
+    background: rgba(255, 255, 255, 0.6);
+    box-shadow:1px -13px 18px 9px rgba(200,200,200,0.72) ;
+    text-align:center;
+    position: relative;
+    bottom:2770px
+}
+
+.news-letter h3{
+    margin:0px;
+    padding:0px;
+    font-family: cursive;
+    font-size:2em;
+    word-spacing: 6px;
+
+}
+.new-letter p{
+    font-size:0.9em;
+}
+
+.subscribe{
+    box-shadow: 5px 15px 16px rgba(228, 228, 228, 0.89);
+    padding:17px;
+    background-color: rgb(212, 212, 212);
+    text-align:center;
+    border:none;
+    border-radius: 60px;
+    width:50%;
+    position: relative;
+    bottom:2980px;
+    left:270px;
+}
+
+.subscribe input[type="Email"]{
+    background-color: transparent;
+    padding:5px;
+    width:35%;
+    border:none;
+    outline:none;
+    position: relative;
+    right:130px;
+    top:10px;
+}
+
+.sub input[type="submit"]{
+    box-shadow: 5px 15px 16px rgba(195,195,195,0.89);
+    padding:38px;
+    border-radius: 0px 60px 60px 0px;
+    width:17%;
+    color:rgb(0, 0, 0);
+    background-color:#f4a927;
+    border:none;
+    outline: none;
+    font-weight:bolder;
+    font-size:0.8em;
+    height:40px;
+    position: relative;
+    bottom:3057px;
+    left:700px;
+}
+
+.sub input[type="submit"]:hover{
+    background-color: #69a41a;
+
+}
+::placeholder{
+    background-color:rgb(212, 212, 212);
+}
+
+/**************************************** FOOTER SECTION ****************************/
+.footer{
+    height:300px;
+    position: relative;
+    bottom:2550px;
+  
+}
+
+.get-started{
+    width:23%;
+}
+
+.get-started a{
+    padding:5px;
+    color:black;
+    text-decoration: underline dotted #f4a927;
+}
+
+.get-started a:hover{
+    font-weight: bold;
+    color: #69a41a;
+    text-decoration-line: underline;
+    text-decoration-style: double;
+
+}
+
+.contact-us{
+    width:23%;
+    position: relative;
+    left:250px;
+    bottom:217px;
+}
+
+.contact-us a{
+    padding:5px;
+    color:black;
+    text-decoration: underline dotted #f4a927;
+}
+
+.contact-us a:hover{
+    font-weight: bold;
+    color: #69a41a;
+    text-decoration-line: underline;
+    text-decoration-style: double;
+}
+
+.know-us{
+    width:23%;
+    position: relative;
+    left:550px;
+    bottom:367px;
+}
+
+.know-us a{
+    padding:5px;
+    color:black;
+    text-decoration: underline dotted #f4a927;
+}
+
+.know-us a:hover{
+    font-weight: bold;
+    color: #69a41a;
+    text-decoration-line: underline;
+    text-decoration-style: double;
+
+}
+
+.connect{
+    width:23%;
+    position: relative;
+    left:850px;
+    bottom:590px;
+}
+
+.connect a{
+    padding:5px;
+    color:black;
+    text-decoration: underline dotted #f4a927;
+}
+
+.connect a:hover{
+    font-weight: bold;
+    color: #69a41a;
+    text-decoration-line: underline;
+    text-decoration-style: double;
+
+}
+
+.rights{
+    font-size: large;
+    text-align: center;
+    position: relative;
+    bottom:500px;
+}
+
+.end{
+    border:1px solid red;
+    height:25px;
+    position: relative;
+    bottom:2478px;
+    background-image: linear-gradient(red, yellow)
+}
+
+.Vegetables{
+  overflow: hidden;
+}
+.Vegetables {
+    transition:transform .5s ease;
+}
+
+.Vegetables:hover{
+    transform: scale(1.1);
+}
+
+
+.Vegetables-2{
+    overflow: hidden;
+}
+.Vegetables-2 {
+    transition:transform .5s ease;
+}
+  
+.Vegetables-2:hover{
+    transform: scale(1.1);
+}
+
+.Vegetables-3{
+overflow: hidden;
+}
+.Vegetables-3 {
+transition:transform .5s ease;
+}
+  
+.Vegetables-3:hover{
+transform: scale(1.1);
+}
+
+.Vegetables-4{
+    overflow: hidden;
+}
+.Vegetables-4 {
+     transition:transform .5s ease;
+  }
+  
+.Vegetables-4:hover{
+    transform: scale(1.1);
+  }
+
+
+.Vegetables-5{
+    overflow: hidden;
+}
+.Vegetables-5 {
+    transition:transform .5s ease;
+}
+  
+.Vegetables-5:hover{
+    transform: scale(1.1);
+}
+
+
+.section-3{
+    overflow: hidden;
+}
+.section-3{
+    transition:transform .5s ease;
+}
+  
+.section-3:hover{
+    transform: scale(1.1);
+}
+
+
+.circle{
+    overflow: hidden;
+}
+.circle{
+    transition:transform .5s ease;
+}
+  
+.circle:hover{
+    transform: scale(1.1);
+}
+
+.book{
+    overflow: hidden;
+}
+.book{
+    transition:transform .5s ease;
+}
+  
+.book:hover{
+    transform: scale(1.1);
+}
+
+.news-letter{
+    overflow: hidden;
+}
+.news-letter{
+    transition:transform .5s ease;
+}
+  
+.news-letter:hover{
+    transform: scale(1.1);
+}
